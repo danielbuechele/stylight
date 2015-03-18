@@ -1,0 +1,82 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  background: #272a32;
+  color: white;
+  font-weight: 300;
+  line-height: 140%;
+}
+.container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+.desc {
+  padding-top: 40px;
+}
+.desc h1 {
+  font-style: italic;
+  font-weight: 100;
+  color: #73d5e9;
+  font-size: 50px;
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .desc .row {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+.desc .row p {
+  margin-top: 0;
+}
+.pins {
+  margin-top: 20px;
+  position: relative;
+}
+.pins.nojs {
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+  -webkit-column-fill: auto;
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -moz-column-fill: auto;
+  column-count: 3;
+  column-gap: 20px;
+  column-fill: auto;
+}
+@media (max-width: 767px) {
+  .pins.nojs {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+.pins.nojs article {
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+}
+.pins article {
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  color: #272a32;
+}
+.pins article figure {
+  width: 100%;
+  background-size: cover;
+  margin: 0;
+}
+.pins article h2 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.pins article .meta {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
