@@ -20,6 +20,7 @@ html {
   color: #73d5e9;
   font-size: 50px;
   margin-top: 0;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .desc .row {
