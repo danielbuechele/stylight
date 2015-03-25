@@ -122,8 +122,8 @@ nav ul li ul {
     margin-top: -10px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s ease-out;
-    -webkit-transition: max-height 1s ease-out;
+    transition: max-height 0.5s ease-out;
+    -webkit-transition: max-height 0.5s ease-out;
   }
 }
 nav ul li ul li {
@@ -300,8 +300,8 @@ nav :-ms-input-placeholder {
   }
   .menuShown nav li.active ul {
     max-height: 300px;
-    transition: max-height 1s ease-in;
-    -webkit-transition: max-height 1s ease-in;
+    transition: max-height 0.5s ease-in;
+    -webkit-transition: max-height 0.5s ease-in;
   }
   .menuShown nav li li a {
     padding: 0 10px;
